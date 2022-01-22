@@ -1,0 +1,75 @@
+<?php
+ if (isset($_POST['register'])) {
+   session_start();
+
+   $_SESSION['firstname'] = htmlentities($_POST['firstname']);
+
+   $_SESSION['lastname']= htmlentities($_POST['lastname']);
+
+   $_SESSION['email']= htmlentities($_POST['email']);
+   $_SESSION['password']= htmlentities($_POST['password']);
+
+
+ header('Location: logout.php');
+
+ }
+
+ ?>
+
+ <!DOCTYPE html>
+ <html lang="en">
+   <head>
+     <meta charset="utf-8">
+     <title>The SignUp Page</title>
+     <link rel="stylesheet" href="bootstrap.css" media="screen">
+     <link rel="stylesheet" href="stylez.css" media="screen" >
+
+   </head>
+   <body>
+     <h1>Sign Up Here</h1>
+
+     <div class="container">
+       <div class="row">
+
+  <div class="col-sm-4"></div>
+
+         <div class="col-md-4">
+
+
+           <div class="login-div">
+           <p>
+             <input type="name" id="firstname" class="form-control" required ="required" placeholder="Firstname...."></p>
+
+             <p>
+             <input type="name" id="lastname" class="form-control" required ="required" placeholder="Lastname...."></p>
+
+           <p>
+             <input type="email" id="email" class="form-control" required ="required" placeholder="Email...."></p>
+            <p>
+              <input type="password" id="password" class="form-control" required ="required" placeholder="Password....."></p>
+
+           <button type="submit" name="register" >Signup into Account</button>
+       </div>
+</br>
+   
+  <center> <div class="sign">
+               <a href="login.php">Already Have an Account.</a>
+      </div></center>
+
+         </div>
+         <div class="col-sm-4"></div>
+
+         </div>
+      </div>
+
+
+
+      <div class="footer">&copy; 2018 MySample Login Form. All rights reserved | Design by
+      			<a href="http://Remy.com">Remy</a>
+      		</div>
+
+
+
+   </body>
+</html>
+

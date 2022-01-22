@@ -1,0 +1,74 @@
+<?php
+session_start();
+
+$_SESSION['firstname'] = htmlentities($_POST['firstname']);
+
+$_SESSION['email'] = htmlentities($_POST['email']);
+
+//$_SESSION['address']= htmlentities($_POST['address']);
+
+//$_SESSION['password']= htmlentities($_POST['password']);
+
+$firstname = $_SESSION['firstname'];
+$email = $_SESSION['email'];
+//$password = $_SESSION['password'];
+ ?>
+
+<!DOCTYPE html>
+ <html lang="en">
+   <head>
+     <meta charset="utf-8">
+     <title>The Logout Page</title>
+     <link rel="stylesheet" href="bootstrap.css" media="screen">
+     <link rel="stylesheet" href="style.css" media="screen" >
+
+   </head>
+   <body class="bod">
+     <h1>Welcome User</h1>
+
+     <div class="container">
+       <div class="row">
+
+    <div class="col-sm-3"></div>
+
+       <div class="col-md-6">
+
+           <div class="user_div">
+
+<p id="user_para"> Welcome to Firebase web Login.<br>
+You are currently logged-in</p>
+
+<button onclick="logout()" name="logout" class="btn btn-warning btn-lg btn-block" >Logout </button>
+         </div>
+
+         </div>
+         <div class="col-sm-4"></div>
+
+         </div>
+      </div>
+
+
+      <div class="user_div">
+         <h1>Welcome User</h1>
+    <div class="container">
+      <div class="row">
+
+    <div class="col-sm-3"></div>
+
+    <div class="col-md-6">
+         <p id="user_para"> Welcome to Firebase web Login.<br>  You are currently logged-in</p>
+      <button onclick="logout()" class="btn btn-warning btn-lg btn-block" >Logout </button>
+          </div>
+
+          <div class="col-sm-4"></div>
+
+          </div>
+       </div>
+     </div>
+
+      <div class="footer">&copy; 2018 MySample Login Form. All rights reserved | Design by
+            <a href="http://Remy.com">Remy</a>
+          </div>
+
+   </body>
+</html>

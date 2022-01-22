@@ -1,0 +1,107 @@
+body{
+  height:100%;
+  width: 100%;
+  font-family:forte;
+  background-image: url(images/1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  color:#fff;
+}
+
+h1{
+  text-align: center;
+  font-size: 60px;
+  text-shadow: 3px 3px 3px #000;
+  font-family:forte;
+
+}
+
+h2{
+  margin-top:100px;
+  text-align: center;
+  font-size: 97px;
+  color:#fff;
+  text-shadow: 5px 5px 5px #000;
+  transition:all 0.8s ease-in;
+   transform: scale(1.05);
+}
+
+h1::after{
+ width:180px;
+  height:3px;
+   background-color: #804d00;
+     display: block;
+    content:" ";
+  margin:0 auto;
+ visibility: visible;
+ margin-bottom:20px;
+margin-top:30px;
+}
+
+
+.col-md-4{
+  box-shadow: 1px 1px 2px 2px #000;
+  padding: 70px;
+  margin: 30px;
+  background-size: cover;
+  border-radius: 3%;
+}
+
+.col-sm-4{
+  text-align: center;
+  margin-top: 20px;
+}
+
+h3 {
+  text-align: center;
+  font-weight: bold;
+}
+
+p{
+  font-size: 23px;
+  font-family:Lucida Fax;
+  color:#fff;
+  margin:30px;
+  text-align:center;
+  text-shadow: 1px 2px 3px #000;
+}
+
+
+.button button{
+   margin:20px;
+   padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: blue;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 9px rgba(38, 102, 230, 0.527);
+  text-align: center;
+  transition:all 0.5s ease-out;
+  transform: scale(1.02);
+}
+ .button button:hover{
+  background-color: gold;
+  box-shadow: 0 6px rgba(224, 224, 194, 0.678);
+  color:#000;
+  transition:all 0.5s ease-out;
+   transform: scale(1.02);
+}
+
+.button button:active{
+  background-color: green;
+  color:#fff;
+   box-shadow: 0 6px rgba(58, 231, 72, 0.678);
+   transform: translateY(4px);
+}
+
+
+.footer{
+  font-size: 16px;
+font-family:forte;
+text-align: center;
+}

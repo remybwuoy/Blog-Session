@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.css" media="screen">
+ 
+    <title>Form</title>
+
+    <style>
+
+body{
+    background-color:rgba(82, 46, 240, 0.514);
+    border-radius:20%;
+}
+
+.fill{
+    box-shadow:2px 2px 2px 2px #000;
+    padding:50px;
+}
+
+h1{
+    text-align: center;
+  font-size: 45px;
+  font-family: 'Courier New', Courier, monospace;
+  margin-top:60px;
+  color:#000; 
+  font-weight: bolder;
+}
+
+h3{
+  text-align: left;
+  font-size: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  margin-bottom:20px;
+  color:#000;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="number"],
+input[type="time"]{
+background:transparent;
+color:#ffffff;
+height: 50px;
+margin-bottom:20px; 
+box-shadow:1px 2px 1px #000;
+}
+
+placeholder{
+    color:#fff;
+
+}    
+
+
+p{
+    font-size:20px;
+    color: blue;
+    text-align: left;
+    margin-top:30px; 
+}
+
+img{
+    width:180px; 
+    height:180px;
+    margin:20px; 
+}
+
+button{
+    margin-top: 30px;
+    width:350px;
+    border-radius:6%;
+
+}
+
+        </style>
+</head>
+<body>
+        <div class="container">
+                <div class="row">
+                        <div class="col-md-4"><img src="gra_logo.gif" ></div>
+                        <div class="col-md-4"><h1>COMMENCEMENT</h1></div>
+                        <div class="col-md-4">
+                            <p>Prince Boakye</p>
+                            <p>003 - Parliament of Ghana</p>
+                            <p>9/12/2019  10:6AM</p></div>
+                </div>
+
+                <div class="fill">
+        <div class="row">
+                <div class="col-md-4">
+                        <h3>Description</h3>
+                        <input type="text" class="form-control" required ="required" placeholder="Enter description"></p>
+
+                </div>
+                <div class="col-md-4">
+                        <h3>Beneficiary</h3>
+                        <input type="text"  class="form-control" required ="required" placeholder="Enter name od beneficiary"></p>
+
+                </div>
+                <div class="col-md-4">
+                        <h3>Item of Expenditure</h3>
+                        <input type="text" class="form-control" required ="required" placeholder="Enter item"></p>
+
+                </div>
+            </div>
+
+            <div class="row">
+                    <div class="col-md-4">
+                            <h3>Amount processed</h3>
+                            <input type="number" class="form-control" required ="required" placeholder="Enter amount"></p>
+    
+                    </div>
+                    <div class="col-md-4">
+                            <h3>Amount unprocessed</h3>
+                            <input type="number"  class="form-control" required ="required" placeholder="Enter amount"></p>
+    
+                    </div>
+                    <div class="col-md-4">
+                            <h3>Amount unprocessed</h3>
+                            <input type="number" name="email" class="form-control" required ="required" placeholder="Enter amount"></p>
+    
+                    </div>
+                </div>
+
+                <div class="row">
+                        <div class="col-md-4">
+                                <h3>Date Signed</h3>
+                                <input type="date" class="form-control" required ="required" placeholder="Pick date"></p>
+        
+                        </div>
+                        <div class="col-md-4">
+                                <h3>Duration</h3>
+
+                                <input type="time"  class="form-control" required ="required" placeholder="Enter duration"></p>
+        
+                        </div>
+                        <div class="col-md-4">
+                            <h3>Remarks</h3>
+                                <input type="text"  class="form-control" required ="required" placeholder="Enter any remarks"></p>
+        
+                        </div>
+                    </div>
+                    <center><button type="submit" name="submit" class="btn btn-success btn-lg" >SUBMIT </button></center>
+                </div>
+</div>
+
+        </body>
+</html>

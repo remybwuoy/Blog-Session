@@ -1,0 +1,186 @@
+body{
+  height:100%;
+  width: 100%;
+  font-family:forte;
+  background-image: url(images/banner_bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+/*logout*/
+.bod{
+  height:100%;
+  width: 100%;
+  font-family:forte;
+  background-image: url(images/1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+/*end*/
+
+input[type="name"],
+input[type="email"],
+input[type="password"]{
+  background:transparent;
+  border: 1px solid #fff;
+  color:#ffffff;
+  margin-top:30px;
+
+}
+
+
+h1{
+  text-align: center;
+  font-size: 30px;
+  text-shadow: 3px 2px 3px#000;
+  font-family: 'Courier New', Courier, monospace;
+  margin-top:-110px;
+  color:rgb(233, 248, 18); 
+  border: 0.5px inset gold; 
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  padding-top:20px;
+  padding-bottom:20px;
+  background-color: #000;
+  width: 350px;
+}
+
+h2{
+  margin-top:100px;
+  text-align: center;
+  font-size: 100px;
+  color:#fff;
+  text-shadow: 5px 5px 5px #000;
+}
+
+
+h3{
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Courier New', Courier, monospace;
+  text-shadow: 3px 2px 3px#000;
+  margin-bottom:60px;
+  color: gold;
+}
+
+
+.col-md-4{
+  box-shadow: 1px 1px 1px 2px #000;
+  padding: 70px;
+  margin: 10px;
+  background-size: cover;
+  /*background: rgb(8, 32, 83);*/
+  background:linear-gradient(indigo, green);
+
+  border-radius: 2%;
+}
+
+.col-md-6{
+  box-shadow: 1px 1px 1px 2px #000;
+  margin: 130px 10px 0px 10px;
+  padding: 60px 40px 40px 40px;
+  background-size: cover;
+  background:linear-gradient(rgba(117, 0, 128, 0.5), rgba(9, 9, 184, 0.74));
+  border-radius: 1%;
+}
+
+
+.col-sm-6{
+  text-align: center;
+  margin-top: 20px;
+}
+
+
+.user-para p{
+  font-size: 23px;
+  font-family:Lucida Fax;
+  color:#000;
+  margin:30px;
+  text-align:center;
+}
+
+p{
+  font-size: 23px;
+  font-family: 'Courier New', Courier, monospace;
+  color:#000;
+  margin:30px;
+  text-align:center;
+  text-shadow: 1px 1px 1px blue;
+}
+
+.btn{
+  background:#000;
+  font-family: 'Courier New', Courier, monospace;
+  color: gold;
+ text-align: center;
+ width: 300px;
+  font-weight: bolder;
+}
+
+.btn:hover{
+  background:rgb(183, 196, 4);
+  transition: 0.5s all ease-out;
+  transform: scale(1.03);
+  z-index: 999;
+  color:#000;
+}
+
+.btn-danger{
+  background:red;
+  
+}
+
+/*HomePage*/
+.button button{
+   margin:20px;
+   padding: 15px 25px;
+  font-size: 30px;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: blue;
+  border: none;
+  border-radius: 40px;
+  box-shadow: 0 9px #999;
+  text-align: center;
+
+}
+ .button button:hover{
+  background-color: gold;
+  color:#000;
+}
+
+.button button:active{
+  background-color: green;
+  color:#fff;
+   box-shadow: 0 5px #666;
+   transform: translateY(4px);
+}
+/*Home ends*/
+
+.sign a{
+  text-align: right;
+  color: gold;
+  text-decoration: none;
+  font-family: 'Courier New', Courier, monospace;
+font-weight: bold;
+}
+
+.sign a:hover{
+  color: rgb(0, 255, 21);
+  transition: 0.6s all ease-out;
+  transform: scale(1.01);
+  z-index: 999;
+}
+
+.footer{
+  font-size: 16px;
+font-family:forte;
+text-align: center;
+color:floralwhite; 
+bottom: 0%;
+}
